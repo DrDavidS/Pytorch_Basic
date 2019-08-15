@@ -1,28 +1,19 @@
-# PyTorch 入门实践
+# 使用RNN进行名称识别
 
-## 前置技能
+## 参考文档
 
-阅读本仓库内的ipynb文件可能需要以下前置技能：
+PyTorch官网
 
-- Python
-- 基础机器学习概念
-- 基础深度学习理论
+[CLASSIFYING NAMES WITH A CHARACTER-LEVEL RNN](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html#classifying-names-with-a-character-level-rnn)
 
-## 版本说明
+## 说明
 
-测试环境：
+本notebook主要用于给初学RNN的人一个参考，其中有较为详细的中文注释。
 
-- Pytorch 1.0
-- Python 3.6.X
-- CUDA 9.0
+## 数据集
 
-理论上向后兼容，所以使用新版本的朋友们也可以放心使用。
+见data文件夹，18种语言，上万种名字。
 
-## 仓库说明
+## 目标
 
-这里记录的是PyTorch入门实践教程。教程本身语言是中文的，内容的编写也尽量做到了针对新手的详细说明。
-除非复用代码，否则对绝大多数代码的用途和含义都有较为详细的说明（不包含Python语法）。
-
-## 修改建议
-
-如果有更好的建议或者意见，请直接在GitHub上提交。
+给出一个名字，然后对其对应的语言进行分类。
