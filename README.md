@@ -1,19 +1,26 @@
-# 使用RNN进行名称识别
+# PyTorch入门项目
 
-## 参考文档
+全中文的 PyTorch 入门项目说明，超级详细，新手必看！
 
-PyTorch官网
+## MNIST
 
-[CLASSIFYING NAMES WITH A CHARACTER-LEVEL RNN](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html#classifying-names-with-a-character-level-rnn)
+经典的手写数字识别项目，其中包括
 
-## 说明
+- 只使用全连接层 nn.Linear 搭建的网络，手写前向传播
+- 使用卷积层 nn.Conv2d 搭建的网络，手写前向传播
+- 使用 Sequential 方法搭建的网络，更简洁
 
-本notebook主要用于给初学RNN的人一个参考，其中有较为详细的中文注释。
+## CIFAR10
 
-## 数据集
+经典的RGB三通道彩色图像识别项目，其中包括
 
-见data文件夹，18种语言，上万种名字。
+- 如何下载 CIFAR10数据集
+- 手写 LeNet-5 网络来识别CIFAR10数据集
+- 使用 TorchVision 内置的 VGG-16 网络来识别CIFAR10数据集
 
-## 目标
+## NLP_name_classifying
 
-给出一个名字，然后对其对应的语言进行分类。
+根据官方教程中的名字识别项目，逐步分析，全中文解释代码。其中包括：
+
+- 详细的代码说明
+- RNN 相关数学概念的代码说明，让你知其然且知其所以然！
