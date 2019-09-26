@@ -17,3 +17,7 @@ PyTorch官网
 ## 目标
 
 给出一个名字，然后对其对应的语言进行分类。
+
+## 后续
+
+https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
